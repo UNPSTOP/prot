@@ -1,4 +1,3 @@
-import React from 'react'
 import frontend from '../assets/chevrons-left-right.svg'
 import backend from '../assets/database.svg'
 import fullstacke from '../assets/globe.svg'
