@@ -123,7 +123,7 @@ function Contact() {
                     <div style={{ paddingTop: "1rem", border: '1px solid ', borderRadius: '1rem', backgroundColor: 'lightgrey', padding: '1rem' }}>
                         <p>Ready to  start a project?</p>
                         <p style={{ maxWidth: '26rem' }}>I'm available  for freelance work and consulting .Lets' bring youre ideas to life!</p>
-                         <a href="mailto:irfanaslamo700@gmail.com"><button style={{ width: '100%' }}> let's Talk</button> </a>
+                         <a href="mailto:irfanaslamo700@gmail.com"><button style={{ width: '100%' }}> Let's Talk</button> </a>
                          
                     </div>
                 </div>
