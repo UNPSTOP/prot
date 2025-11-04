@@ -19,9 +19,9 @@ function Contact() {
         // console.log(name, lastname, email, subject, massage)
         try {
             setbuttontrue(false)
-            const response = await fetch('https://proptbacken-api.onrender.com/api/sendkey', {
+            const response = await fetch("https://proptbacken-api.onrender.com/api/sendkey", {
                 method: 'GET',
-                credentials: 'include',
+                
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -34,9 +34,9 @@ function Contact() {
             const token = data.key;
             // console.log(token)
                try{
-                 const response2 = await fetch('https://proptbacken-api.onrender.com/api/addData', {
+                 const response2 = await fetch("https://proptbacken-api.onrender.com/api/addData", {
                     method: 'POST',
-                    credentials: 'include',
+        
                     headers: { "Authorization": `Bearer ${token}`, "content-type": "application/json" },
                     body: JSON.stringify({
                         name: name,
