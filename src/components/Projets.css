@@ -1,0 +1,122 @@
+.tech-pill {
+    border: 1px solid #ccc;
+    border-radius: 9999px;
+    /* makes it pill-shaped */
+    padding: 4px 12px;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+    cursor: default;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.tech-pill:hover {
+    border-color: #000;
+    background-color: #f3f3f3;
+}
+
+.buttonto {
+    border: 1px solid rgb(117, 114, 114);
+    padding: 0.3rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 0px 1px;
+}
+
+.project {
+    display: flex;
+    /* border: 5px solid black; */
+    /* */
+    border: 1px solid;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1.4rem;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.imgmain {
+    /* min-width: 48%; */
+    max-width: 48%;
+}
+
+.gymimg {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.buttondiv {
+    text-Align: left;
+    padding-Left: 3rem;
+    padding-Top: 3rem;
+}
+
+@media (width<=895px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 0rem;
+        border-top-right-radius: 1rem;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .imgmain {
+        max-width: 100%;
+        border-top-right-radius: 1rem;
+    }
+    .buttondiv {
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        padding-Left: 0rem;
+        padding-Top: 2rem;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .project {
+        justify-content: center;
+        align-items: center;
+    }
+    .gymimg {
+        /* border-top-left-radius: rem; */
+        border-bottom-left-radius: 0rem;
+        border-top-right-radius: 1rem;
+    }
+    .imgmain {
+        /* max-width: 100%; */
+        border-top-right-radius: 0rem;
+    }
+}
+
+.buttonto:hover {
+    border-color: lightgreen;
+}
+
+.firstlaste {
+    border: none;
+    padding: 0.3rem;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    width: 80%;
+}
+
+input {
+    height: 1.5rem;
+    border: none;
+    padding: 0.3rem;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    width: 90%;
+}
+
+textarea {
+    background-color: rgb(217, 217, 217);
+    width: 90%;
+}

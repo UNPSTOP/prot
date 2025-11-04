@@ -1,0 +1,100 @@
+/* Center heading and intro text */
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.about-container p {
+    max-width: 40rem;
+    text-align: center;
+    color: #333;
+}
+
+
+/* Main section layout */
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+
+/* Left side text */
+
+.about-text {
+    width: 70%;
+    text-align: left;
+}
+
+.about-text h3 {
+    font-weight: 500;
+}
+
+.myjunery {
+    margin-top: 1rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+
+/* Right side grid */
+
+.grid-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+
+/* Card styling */
+
+.grid-two div {
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: white;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.grid-two div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-two img {
+    width: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-two p:first-of-type {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Responsive layout */
+
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .grid-two {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,97 @@
+.formobile {
+    display: none;
+}
+
+.main {
+    justify-content: space-around;
+    display: flex;
+    border-bottom: 1px solid black;
+    /* align-Items: center; */
+    max-height: 2.5rem;
+    /* width: '100%' */
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+.forleptop {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forleptop ul li:hover {
+    color: rgb(58, 13, 173);
+}
+
+@media (width <=637px) {
+    .forleptop {
+        display: none;
+    }
+    .formobile {
+        display: block;
+        /* flex-direction: column; */
+        cursor: pointer;
+    }
+    .formobile img:hover {
+        background-color: rgb(97, 95, 95);
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    .main {
+        justify-content: space-between;
+    }
+}
+
+ul li {
+    list-style: none;
+}
+
+
+/* .forleptop {
+    display: none;
+}
+
+ */
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    /* adjust as per your header height */
+    right: 5%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 160px;
+    text-align: left;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.nav-menu li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+.nav-menu li:last-child {
+    border-bottom: none;
+}
+
+.nav-menu li:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
