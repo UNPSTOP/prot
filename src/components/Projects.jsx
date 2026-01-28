@@ -12,8 +12,14 @@ export const Projects = () => {
         lang: ["React", "Node.js", " Express.js", "MongoDB", " Razorpay", " CSS", "Vercel/Render"],
         srccode:"https://github.com/UNPSTOP/MY-GYM",
         srclivedemo:'https://my-gym-beryl.vercel.app/',
-
-        // lang:[]
+    },
+        {
+        src: gym,
+        titel: "Gym Management Website",
+        about: "A full-featured Gym Management Web App built with MARN Stack, offering secure login, memberships, and online payments via Razorpay.",
+        lang: ["React", "Node.js", " Express.js", "MongoDB", " Razorpay", " CSS", "Vercel/Render"],
+        srccode:"https://github.com/UNPSTOP/MY-GYM",
+        srclivedemo:'https://my-gym-beryl.vercel.app/',
     }
 ]
     return (
