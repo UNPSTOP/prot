@@ -23,11 +23,11 @@ function App() {
       <Hero/>
     </div>
  
-    <div  id='about'  style={{width:'100%',display:'flex',justifyContent:'center',alignItems:'center',paddingTop:'7rem'}}>
+    <div  id='about' className='about1' style={{width:'100%',display:'flex',justifyContent:'center',alignItems:'center',}}>
       <About/>
     </div>
     
-     <div id='skill' style={{width:'100%',display:'flex',justifyContent:'center',alignItems:'center',paddingBottom:'19rem'}}>
+     <div id='skill' style={{width:'100%',display:'flex',justifyContent:'center',alignItems:'center',paddingBottom:'1rem',paddingTop:"2rem"}}>
       <Skill/>
     </div>
     

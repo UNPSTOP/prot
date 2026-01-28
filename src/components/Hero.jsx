@@ -6,7 +6,7 @@ import React from 'react'
 import arrow from '../assets/arrow-down-to-line.svg'
 const Hero = () => {
   return (
-    <div  style={{display:"flex",flexDirection:"column",alignItems:'center',padding:'3rem'}}>
+    <div  style={{display:"flex",flexDirection:"column",alignItems:'center',paddingTop:'3rem'}}>
       <div><h1 
       className='forh1'>Hi i'm Irfan Aslam</h1></div>
       <div><p className='forp' >MERN stack Developer & Problem Solver</p></div>

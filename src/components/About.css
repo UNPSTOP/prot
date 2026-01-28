@@ -89,7 +89,7 @@
 @media (max-width: 768px) {
     .about-section {
         flex-direction: column;
-        padding: 2rem;
+        padding: 0rem;
     }
     .about-text {
         width: 100%;
