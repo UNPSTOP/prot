@@ -4,7 +4,7 @@ import github from '../assets/github.svg'
 import share from '../assets/external-link.svg'
 import gym from '../assets/pexels-anush-1229356.jpg'
 import Library from '../assets/Library.png'
-import AI_kitchen from '../assets/'
+import AI_kitchen from '../assets/Main.png'
 import './Projets.css'
 export const Projects = () => {
     const arr = [
