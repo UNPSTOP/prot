@@ -4,9 +4,24 @@ import github from '../assets/github.svg'
 import share from '../assets/external-link.svg'
 import gym from '../assets/pexels-anush-1229356.jpg'
 import Library from '../assets/Library.png'
+import AI_kitchen from '../assets/'
 import './Projets.css'
 export const Projects = () => {
-    const arr = [{
+    const arr = [
+        
+        {
+        src1: AI_kitchen,
+        titel: "AI_Kitchen_Equpiment",
+        about: "Developed a modern and responsive business website focused on product showcasing. The platform provides an elegant UI, optimized performance, and seamless navigation to enhance user engagement and help businesses present their offerings professionally online.",
+        lang: [
+  "React",
+  "CSS",
+  "Vercel/Render"
+],
+        srccode:"#",
+        srclivedemo:'https://ai-kitcken.vercel.app/',
+    },
+        {
         src1: gym,
         titel: "Gym Management Website",
         about: "A full-featured Gym Management Web App built with MARN Stack, offering secure login, memberships, and online payments via Razorpay.",
