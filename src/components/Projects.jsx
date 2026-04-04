@@ -8,19 +8,6 @@ import AI_kitchen from '../assets/Screenshot 2026-04-04 155054.png'
 import './Projets.css'
 export const Projects = () => {
     const arr = [
-        
-        {
-        src1: AI_kitchen,
-        titel: "AI_Kitchen_Equpiment",
-        about: "Developed a modern and responsive business website focused on product showcasing. The platform provides an elegant UI, optimized performance, and seamless navigation to enhance user engagement and help businesses present their offerings professionally online.",
-        lang: [
-  "React",
-  "CSS",
-  "Vercel/Render"
-],
-        srccode:"#",
-        srclivedemo:'https://ai-kitcken.vercel.app/',
-    },
         {
         src1: gym,
         titel: "Gym Management Website",
@@ -33,19 +20,22 @@ export const Projects = () => {
         src1: Library,
         titel: "Library Management System",
         about: "This project is a full-stack Library Management System designed to manage library operations digitally. The system provides secure user authentication, subscription plan management, and library seat booking functionality.Users can register and log in to the platform, choose suitable plans, and book available seats based on real-time availability. The system ensures smooth and secure handling of user data and bookings.",
+        lang: ["React","Node.js","Express.js","MongoDB","JWT","Razorpay","CSS","Vercel/Render"],
+        srccode:"https://github.com/khursid321/Library",
+        srclivedemo:'https://library-three-mocha.vercel.app/',
+    },
+    {
+        src1: AI_kitchen,
+        titel: "AI_Kitchen_Equpiment",
+        about: "Developed a modern and responsive business website focused on product showcasing. The platform provides an elegant UI, optimized performance, and seamless navigation to enhance user engagement and help businesses present their offerings professionally online.",
         lang: [
   "React",
-  "Node.js",
-  "Express.js",
-  "MongoDB",
-  "JWT",
-  "Razorpay",
   "CSS",
   "Vercel/Render"
 ],
-        srccode:"https://github.com/khursid321/Library",
-        srclivedemo:'https://library-three-mocha.vercel.app/',
-    }
+        srccode:"#",
+        srclivedemo:'https://ai-kitcken.vercel.app/',
+    },
 ]
     return (
         <div  >
