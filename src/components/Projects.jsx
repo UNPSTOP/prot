@@ -47,7 +47,7 @@ export const Projects = () => {
                 {
                     arr.map((item, index) => {
                         return <div key={index} className='project'>
-                            <div className='imgmain' ><img  className='gymimg' src={index==0 ?gym :Library} alt= "" /></div>
+                            <div className='imgmain' ><img  className='gymimg' src={item.src1} alt= "" /></div>
                             <div >
                                 <div style={{ textAlign: 'left', paddingLeft: '2rem' }}>
                                     <h2>{item.titel}</h2>
